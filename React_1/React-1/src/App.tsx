@@ -1,7 +1,6 @@
-import Title from "./title";
-
-function App(){
-  return <Title></Title>
+import Card from "./components/01-Card";
+function App() {
+  return <Card></Card>;
 }
 
-export default App
+export default App;
