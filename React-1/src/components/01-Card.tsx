@@ -1,4 +1,8 @@
-function Card() {
+/*Aca se explica o se muestra el funcionamiento basico de un componente
+  Se debe tener en cuenta que para pasar un valor a un componente se debe
+  pasar un objeto como se muestra abajo. */
+
+function Card1() {
   return (
     <div className="card" style={{ width: 250 }}>
       <div className="card-body">
@@ -15,4 +19,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Card1;
