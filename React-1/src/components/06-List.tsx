@@ -3,7 +3,8 @@ import { useState } from "react";
 /*Aca se hace el pequeno codigo de TS para mostrar la lista, asi mismo se debe lograr que no hayan errores en consola
   por lo cual para estos archivos deberemos agregar un ID, pues este no funciona como en las bases de datos, donde estos
   ya las traen incluidas, asi mismo pudimos hacer otro modulo importado donde se puede presenciar el efecto del click
-  esto es sumamente util cuando tenemos Modales de cientos de lineas */
+  esto es sumamente util cuando tenemos Modales de cientos de lineas, tristemente al agregar variables de estado o codigo de esa forma nos
+  topamos con la incapacidad de tomar variables del componente y plazmarlas en este*/
 type Props = {
   data:string[],
 }
